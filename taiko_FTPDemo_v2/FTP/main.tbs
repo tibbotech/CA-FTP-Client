@@ -1,0 +1,166 @@
+'--------------------------------------------------------------------------------------------------------
+''--------------------------------------- FTP Client Demo -----------------------------------------------
+'--------------------------------------------------------------------------------------------------------
+'
+'This FTP client demo was based on a user submitted demo by Carlo Tauraso.  Some of logics and the properties was
+'updated to reflect the current Tibbo BASIC language.  Please refer to the following default settings
+'used here to setup your test system.  Make changes to the code below to suit your local network.
+'
+'Client (Tibbo Device) :
+'
+'IP :			192.168.1.179
+'Subnet Mask :	255.255.255.0
+'Gateway :		192.168.1.1
+'User ID : 		tibbo
+'Password : 	prova
+'
+'
+'Server (Your PC or an actual remote server) :
+'
+'IP : 			192.168.1.72
+'FTP Port : 	21
+'
+'
+'Please remember, this is a very simple demo of how FTP works, the way it is currently setup to process 
+'the incomming data is not the best, since really long welcome messages will mess up the login process.
+'This demo only serve as a glimpse into how to develop a FTP client and the capability of Tibbo BASIC.
+'
+'ver.09272007
+'--------------------------------------------------------------------------------------------------------
+
+include "global.tbh"
+
+dim utente as string
+dim pwd as string
+dim stato as byte
+dim contabyte as word
+dim tempoini as word
+dim sec as byte
+dim risp as string
+
+
+sub on_sys_init
+	net.gatewayip = "192.168.1.1"  '(PARA)ADSL Router IP
+	net.netmask = "255.255.255.0"  '(PARA)DS202 Subnet Mask
+	net.ip = "192.168.1.179"  	   '(PARA)DS202 IP
+    utente = "tibbo"               '(PARA)User
+    pwd = "prova"                  '(PARA)Password
+    stato = 0					   'FSM State
+    sec = 5                       '(PARA)Seconds between FTP sessions
+    
+    for contabyte = 1 to stor.size/8 'Storing test data in EEPROM
+    	stor.setdata("TIBBOFTP",(contabyte*8)-7)
+    next contabyte
+    
+    sock.num = 0		'This is the control connection
+	sock.txbuffrq(2)
+	sock.rxbuffrq(2)
+	sock.protocol = PL_SOCK_PROTOCOL_TCP
+	sock.inconmode = PL_SOCK_INCONMODE_ANY_IP_ANY_PORT
+	sock.reconmode = PL_SOCK_RECONMODE_3
+	sock.connectiontout = 0
+	sock.localportlist = "1173"
+	sock.targetip = "192.168.1.72"   '(PARA) FTP Server IP
+	sock.targetport = 21             '(PARA) FTP Server Command Port
+	
+	sock.num = 1		'This is the data connection
+    sock.txbuffrq(2)
+    sock.rxbuffrq(2)
+    sock.protocol = PL_SOCK_PROTOCOL_TCP
+    sock.inconmode = PL_SOCK_INCONMODE_ANY_IP_ANY_PORT
+    sock.reconmode = PL_SOCK_RECONMODE_3
+	sock.localportlist = "1012"
+	
+	sys.buffalloc
+end sub
+
+sub on_button_pressed
+	
+		sock.num = 0
+		sock.connect
+	    stato = 1        
+end sub
+
+sub on_sys_timer
+	pat.play("R-",PL_PAT_CANINT)    'Every SEC seconds open socket for command on port 21
+end sub
+
+sub on_sock_data_arrival  'The FSM depends on 3 digit reply from FTPServer 
+	risp = left(sock.getdata(255),3)
+	pat.play("G-",PL_PAT_CANINT)
+	
+ 	if sock.num = 0 then
+ 	
+		select case risp
+	    case "220":            'Command Channel is open so login
+	            if stato = 1 then
+				sock.setdata("USER " + utente + chr(13) + chr(10))
+				sock.send
+				stato = 2
+				end if
+		case "331":            'Password needed
+		        if stato = 2 then
+		        sock.setdata("PASS " + pwd + chr(13) + chr(10))
+		        sock.send
+		        stato = 3
+		        end if
+		case "230":            'Login OK so transmit the data socket port number
+		        if stato = 3 then
+		        sock.setdata("PORT 192,168,0,5,3,244"+ chr(13) + chr(10))   '(PARA)Use Port 1012 for data instead Default Port 20      
+		        sock.send
+		        stato = 4
+		        end if
+		case "200":            'Port OK so listen on 1012 port and send STOR command
+		        if stato = 4 then
+	        	sock.num = 0
+		        sock.setdata("STOR ftpTEST.txt"+ chr(13) + chr(10))    '(PARA) FileName    
+		        sock.send
+		    	stato = 5
+		        end if
+		case "150":            'Data Channel Ready so begin to transmit data
+		        if stato = 5 then
+		        sock.num = 1
+	   	    	do 
+		    	loop until sock.statesimple = PL_SSTS_EST	
+		        sock.notifysent(8)
+		        contabyte = 0
+		        stato = 6
+		        end if   
+		case "226" :            'Transfer OK so send QUIT command
+		        if stato=7 then
+	     	    sock.num=1
+	   	        sock.setdata("QUIT"+ chr(13) + chr(10))        
+		        sock.send
+		        stato = 8
+	            end if
+	    case "221" :           'Good Bye
+	            if stato=8 then
+	            sock.num=1
+	            sock.close
+	            tempoini = sys.timercount
+	            stato=0
+	            end if         	                      
+		end select
+		
+	end if        
+end sub
+
+sub on_sock_data_sent      'Every 8 bytes packet update counter and EEPROM address
+
+     pat.play("G-",PL_PAT_CANINT)
+     
+     if stato = 6 then
+		 if contabyte < stor.size/8 then
+		        sock.num = 0
+		        sock.setdata(stor.getdata(contabyte*8+1,8)) 'Send next packet
+		        sock.send
+		        contabyte = contabyte + 1
+		        stato=6
+		        sock.notifysent(8)
+	     else					'EOF so close data channel
+	     	    sock.num = 0
+	   	    	sock.close
+	            stato=7
+	     end if
+     end if
+end sub

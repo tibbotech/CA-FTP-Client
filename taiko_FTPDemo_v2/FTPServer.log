@@ -1,0 +1,195 @@
+(000076) 29/06/2006 16.20.28 - (not logged in) (192.168.0.5)> Connected, sending welcome message...
+(000076) 29/06/2006 16.20.28 - (not logged in) (192.168.0.5)> 220-FileZilla Server version 0.9.10 beta
+(000076) 29/06/2006 16.20.28 - (not logged in) (192.168.0.5)> 220 FTP-Server for TIBBO Test
+(000076) 29/06/2006 16.20.28 - (not logged in) (192.168.0.5)> USER tibbo
+(000076) 29/06/2006 16.20.28 - (not logged in) (192.168.0.5)> 331 Password required for tibbo
+(000076) 29/06/2006 16.20.28 - (not logged in) (192.168.0.5)> PASS prova
+(000076) 29/06/2006 16.20.28 - tibbo (192.168.0.5)> 230 Logged on
+(000076) 29/06/2006 16.20.28 - tibbo (192.168.0.5)> PORT 192,168,0,5,3,244
+(000076) 29/06/2006 16.20.28 - tibbo (192.168.0.5)> 200 Port command successful
+(000076) 29/06/2006 16.20.28 - tibbo (192.168.0.5)> STOR ftpTEST.txt
+(000076) 29/06/2006 16.20.28 - tibbo (192.168.0.5)> 150 Opening data channel for file transfer.
+(000076) 29/06/2006 16.21.19 - tibbo (192.168.0.5)> 226 Transfer OK
+(000076) 29/06/2006 16.21.19 - tibbo (192.168.0.5)> QUIT
+(000076) 29/06/2006 16.21.19 - tibbo (192.168.0.5)> 221 Goodbye
+(000076) 29/06/2006 16.21.19 - tibbo (192.168.0.5)> disconnected.
+(000077) 29/06/2006 16.21.49 - (not logged in) (192.168.0.5)> Connected, sending welcome message...
+(000077) 29/06/2006 16.21.49 - (not logged in) (192.168.0.5)> 220-FileZilla Server version 0.9.10 beta
+(000077) 29/06/2006 16.21.49 - (not logged in) (192.168.0.5)> 220 FTP-Server for TIBBO Test
+(000077) 29/06/2006 16.21.49 - (not logged in) (192.168.0.5)> USER tibbo
+(000077) 29/06/2006 16.21.49 - (not logged in) (192.168.0.5)> 331 Password required for tibbo
+(000077) 29/06/2006 16.21.49 - (not logged in) (192.168.0.5)> PASS prova
+(000077) 29/06/2006 16.21.49 - tibbo (192.168.0.5)> 230 Logged on
+(000077) 29/06/2006 16.21.49 - tibbo (192.168.0.5)> PORT 192,168,0,5,3,244
+(000077) 29/06/2006 16.21.49 - tibbo (192.168.0.5)> 200 Port command successful
+(000077) 29/06/2006 16.21.49 - tibbo (192.168.0.5)> STOR ftpTEST.txt
+(000077) 29/06/2006 16.21.49 - tibbo (192.168.0.5)> 150 Opening data channel for file transfer.
+(000077) 29/06/2006 16.22.40 - tibbo (192.168.0.5)> 226 Transfer OK
+(000077) 29/06/2006 16.22.40 - tibbo (192.168.0.5)> QUIT
+(000077) 29/06/2006 16.22.40 - tibbo (192.168.0.5)> 221 Goodbye
+(000077) 29/06/2006 16.22.40 - tibbo (192.168.0.5)> disconnected.
+(000078) 29/06/2006 16.23.11 - (not logged in) (192.168.0.5)> Connected, sending welcome message...
+(000078) 29/06/2006 16.23.11 - (not logged in) (192.168.0.5)> 220-FileZilla Server version 0.9.10 beta
+(000078) 29/06/2006 16.23.11 - (not logged in) (192.168.0.5)> 220 FTP-Server for TIBBO Test
+(000078) 29/06/2006 16.23.11 - (not logged in) (192.168.0.5)> USER tibbo
+(000078) 29/06/2006 16.23.11 - (not logged in) (192.168.0.5)> 331 Password required for tibbo
+(000078) 29/06/2006 16.23.11 - (not logged in) (192.168.0.5)> PASS prova
+(000078) 29/06/2006 16.23.11 - tibbo (192.168.0.5)> 230 Logged on
+(000078) 29/06/2006 16.23.11 - tibbo (192.168.0.5)> PORT 192,168,0,5,3,244
+(000078) 29/06/2006 16.23.11 - tibbo (192.168.0.5)> 200 Port command successful
+(000078) 29/06/2006 16.23.11 - tibbo (192.168.0.5)> STOR ftpTEST.txt
+(000078) 29/06/2006 16.23.11 - tibbo (192.168.0.5)> 150 Opening data channel for file transfer.
+(000078) 29/06/2006 16.24.02 - tibbo (192.168.0.5)> 226 Transfer OK
+(000078) 29/06/2006 16.24.02 - tibbo (192.168.0.5)> QUIT
+(000078) 29/06/2006 16.24.02 - tibbo (192.168.0.5)> 221 Goodbye
+(000078) 29/06/2006 16.24.02 - tibbo (192.168.0.5)> disconnected.
+(000079) 29/06/2006 16.24.32 - (not logged in) (192.168.0.5)> Connected, sending welcome message...
+(000079) 29/06/2006 16.24.32 - (not logged in) (192.168.0.5)> 220-FileZilla Server version 0.9.10 beta
+(000079) 29/06/2006 16.24.32 - (not logged in) (192.168.0.5)> 220 FTP-Server for TIBBO Test
+(000079) 29/06/2006 16.24.32 - (not logged in) (192.168.0.5)> USER tibbo
+(000079) 29/06/2006 16.24.32 - (not logged in) (192.168.0.5)> 331 Password required for tibbo
+(000079) 29/06/2006 16.24.32 - (not logged in) (192.168.0.5)> PASS prova
+(000079) 29/06/2006 16.24.32 - tibbo (192.168.0.5)> 230 Logged on
+(000079) 29/06/2006 16.24.32 - tibbo (192.168.0.5)> PORT 192,168,0,5,3,244
+(000079) 29/06/2006 16.24.32 - tibbo (192.168.0.5)> 200 Port command successful
+(000079) 29/06/2006 16.24.32 - tibbo (192.168.0.5)> STOR ftpTEST.txt
+(000079) 29/06/2006 16.24.32 - tibbo (192.168.0.5)> 150 Opening data channel for file transfer.
+(000079) 29/06/2006 16.25.23 - tibbo (192.168.0.5)> 226 Transfer OK
+(000079) 29/06/2006 16.25.23 - tibbo (192.168.0.5)> QUIT
+(000079) 29/06/2006 16.25.23 - tibbo (192.168.0.5)> 221 Goodbye
+(000079) 29/06/2006 16.25.23 - tibbo (192.168.0.5)> disconnected.
+(000080) 29/06/2006 16.25.54 - (not logged in) (192.168.0.5)> Connected, sending welcome message...
+(000080) 29/06/2006 16.25.54 - (not logged in) (192.168.0.5)> 220-FileZilla Server version 0.9.10 beta
+(000080) 29/06/2006 16.25.54 - (not logged in) (192.168.0.5)> 220 FTP-Server for TIBBO Test
+(000080) 29/06/2006 16.25.54 - (not logged in) (192.168.0.5)> USER tibbo
+(000080) 29/06/2006 16.25.54 - (not logged in) (192.168.0.5)> 331 Password required for tibbo
+(000080) 29/06/2006 16.25.54 - (not logged in) (192.168.0.5)> PASS prova
+(000080) 29/06/2006 16.25.54 - tibbo (192.168.0.5)> 230 Logged on
+(000080) 29/06/2006 16.25.54 - tibbo (192.168.0.5)> PORT 192,168,0,5,3,244
+(000080) 29/06/2006 16.25.54 - tibbo (192.168.0.5)> 200 Port command successful
+(000080) 29/06/2006 16.25.54 - tibbo (192.168.0.5)> STOR ftpTEST.txt
+(000080) 29/06/2006 16.25.54 - tibbo (192.168.0.5)> 150 Opening data channel for file transfer.
+(000080) 29/06/2006 16.26.45 - tibbo (192.168.0.5)> 226 Transfer OK
+(000080) 29/06/2006 16.26.45 - tibbo (192.168.0.5)> QUIT
+(000080) 29/06/2006 16.26.45 - tibbo (192.168.0.5)> 221 Goodbye
+(000080) 29/06/2006 16.26.45 - tibbo (192.168.0.5)> disconnected.
+(000081) 29/06/2006 16.27.15 - (not logged in) (192.168.0.5)> Connected, sending welcome message...
+(000081) 29/06/2006 16.27.15 - (not logged in) (192.168.0.5)> 220-FileZilla Server version 0.9.10 beta
+(000081) 29/06/2006 16.27.15 - (not logged in) (192.168.0.5)> 220 FTP-Server for TIBBO Test
+(000081) 29/06/2006 16.27.15 - (not logged in) (192.168.0.5)> USER tibbo
+(000081) 29/06/2006 16.27.15 - (not logged in) (192.168.0.5)> 331 Password required for tibbo
+(000081) 29/06/2006 16.27.15 - (not logged in) (192.168.0.5)> PASS prova
+(000081) 29/06/2006 16.27.15 - tibbo (192.168.0.5)> 230 Logged on
+(000081) 29/06/2006 16.27.15 - tibbo (192.168.0.5)> PORT 192,168,0,5,3,244
+(000081) 29/06/2006 16.27.15 - tibbo (192.168.0.5)> 200 Port command successful
+(000081) 29/06/2006 16.27.15 - tibbo (192.168.0.5)> STOR ftpTEST.txt
+(000081) 29/06/2006 16.27.15 - tibbo (192.168.0.5)> 150 Opening data channel for file transfer.
+(000081) 29/06/2006 16.28.06 - tibbo (192.168.0.5)> 226 Transfer OK
+(000081) 29/06/2006 16.28.07 - tibbo (192.168.0.5)> QUIT
+(000081) 29/06/2006 16.28.07 - tibbo (192.168.0.5)> 221 Goodbye
+(000081) 29/06/2006 16.28.07 - tibbo (192.168.0.5)> disconnected.
+(000082) 29/06/2006 16.28.37 - (not logged in) (192.168.0.5)> Connected, sending welcome message...
+(000082) 29/06/2006 16.28.37 - (not logged in) (192.168.0.5)> 220-FileZilla Server version 0.9.10 beta
+(000082) 29/06/2006 16.28.37 - (not logged in) (192.168.0.5)> 220 FTP-Server for TIBBO Test
+(000082) 29/06/2006 16.28.37 - (not logged in) (192.168.0.5)> USER tibbo
+(000082) 29/06/2006 16.28.37 - (not logged in) (192.168.0.5)> 331 Password required for tibbo
+(000082) 29/06/2006 16.28.37 - (not logged in) (192.168.0.5)> PASS prova
+(000082) 29/06/2006 16.28.37 - tibbo (192.168.0.5)> 230 Logged on
+(000082) 29/06/2006 16.28.37 - tibbo (192.168.0.5)> PORT 192,168,0,5,3,244
+(000082) 29/06/2006 16.28.37 - tibbo (192.168.0.5)> 200 Port command successful
+(000082) 29/06/2006 16.28.37 - tibbo (192.168.0.5)> STOR ftpTEST.txt
+(000082) 29/06/2006 16.28.37 - tibbo (192.168.0.5)> 150 Opening data channel for file transfer.
+(000082) 29/06/2006 16.29.28 - tibbo (192.168.0.5)> 226 Transfer OK
+(000082) 29/06/2006 16.29.28 - tibbo (192.168.0.5)> QUIT
+(000082) 29/06/2006 16.29.28 - tibbo (192.168.0.5)> 221 Goodbye
+(000082) 29/06/2006 16.29.28 - tibbo (192.168.0.5)> disconnected.
+(000083) 29/06/2006 16.29.58 - (not logged in) (192.168.0.5)> Connected, sending welcome message...
+(000083) 29/06/2006 16.29.58 - (not logged in) (192.168.0.5)> 220-FileZilla Server version 0.9.10 beta
+(000083) 29/06/2006 16.29.58 - (not logged in) (192.168.0.5)> 220 FTP-Server for TIBBO Test
+(000083) 29/06/2006 16.29.58 - (not logged in) (192.168.0.5)> USER tibbo
+(000083) 29/06/2006 16.29.58 - (not logged in) (192.168.0.5)> 331 Password required for tibbo
+(000083) 29/06/2006 16.29.58 - (not logged in) (192.168.0.5)> PASS prova
+(000083) 29/06/2006 16.29.58 - tibbo (192.168.0.5)> 230 Logged on
+(000083) 29/06/2006 16.29.58 - tibbo (192.168.0.5)> PORT 192,168,0,5,3,244
+(000083) 29/06/2006 16.29.58 - tibbo (192.168.0.5)> 200 Port command successful
+(000083) 29/06/2006 16.29.58 - tibbo (192.168.0.5)> STOR ftpTEST.txt
+(000083) 29/06/2006 16.29.58 - tibbo (192.168.0.5)> 150 Opening data channel for file transfer.
+(000083) 29/06/2006 16.30.50 - tibbo (192.168.0.5)> 226 Transfer OK
+(000083) 29/06/2006 16.30.50 - tibbo (192.168.0.5)> QUIT
+(000083) 29/06/2006 16.30.50 - tibbo (192.168.0.5)> 221 Goodbye
+(000083) 29/06/2006 16.30.50 - tibbo (192.168.0.5)> disconnected.
+(000084) 29/06/2006 16.31.20 - (not logged in) (192.168.0.5)> Connected, sending welcome message...
+(000084) 29/06/2006 16.31.20 - (not logged in) (192.168.0.5)> 220-FileZilla Server version 0.9.10 beta
+(000084) 29/06/2006 16.31.20 - (not logged in) (192.168.0.5)> 220 FTP-Server for TIBBO Test
+(000084) 29/06/2006 16.31.20 - (not logged in) (192.168.0.5)> USER tibbo
+(000084) 29/06/2006 16.31.20 - (not logged in) (192.168.0.5)> 331 Password required for tibbo
+(000084) 29/06/2006 16.31.20 - (not logged in) (192.168.0.5)> PASS prova
+(000084) 29/06/2006 16.31.20 - tibbo (192.168.0.5)> 230 Logged on
+(000084) 29/06/2006 16.31.20 - tibbo (192.168.0.5)> PORT 192,168,0,5,3,244
+(000084) 29/06/2006 16.31.20 - tibbo (192.168.0.5)> 200 Port command successful
+(000084) 29/06/2006 16.31.20 - tibbo (192.168.0.5)> STOR ftpTEST.txt
+(000084) 29/06/2006 16.31.20 - tibbo (192.168.0.5)> 150 Opening data channel for file transfer.
+(000084) 29/06/2006 16.32.11 - tibbo (192.168.0.5)> 226 Transfer OK
+(000084) 29/06/2006 16.32.11 - tibbo (192.168.0.5)> QUIT
+(000084) 29/06/2006 16.32.11 - tibbo (192.168.0.5)> 221 Goodbye
+(000084) 29/06/2006 16.32.11 - tibbo (192.168.0.5)> disconnected.
+(000085) 29/06/2006 16.32.41 - (not logged in) (192.168.0.5)> Connected, sending welcome message...
+(000085) 29/06/2006 16.32.41 - (not logged in) (192.168.0.5)> 220-FileZilla Server version 0.9.10 beta
+(000085) 29/06/2006 16.32.41 - (not logged in) (192.168.0.5)> 220 FTP-Server for TIBBO Test
+(000085) 29/06/2006 16.32.41 - (not logged in) (192.168.0.5)> USER tibbo
+(000085) 29/06/2006 16.32.41 - (not logged in) (192.168.0.5)> 331 Password required for tibbo
+(000085) 29/06/2006 16.32.41 - (not logged in) (192.168.0.5)> PASS prova
+(000085) 29/06/2006 16.32.41 - tibbo (192.168.0.5)> 230 Logged on
+(000085) 29/06/2006 16.32.41 - tibbo (192.168.0.5)> PORT 192,168,0,5,3,244
+(000085) 29/06/2006 16.32.41 - tibbo (192.168.0.5)> 200 Port command successful
+(000085) 29/06/2006 16.32.41 - tibbo (192.168.0.5)> STOR ftpTEST.txt
+(000085) 29/06/2006 16.32.41 - tibbo (192.168.0.5)> 150 Opening data channel for file transfer.
+(000085) 29/06/2006 16.33.33 - tibbo (192.168.0.5)> 226 Transfer OK
+(000085) 29/06/2006 16.33.33 - tibbo (192.168.0.5)> QUIT
+(000085) 29/06/2006 16.33.33 - tibbo (192.168.0.5)> 221 Goodbye
+(000085) 29/06/2006 16.33.33 - tibbo (192.168.0.5)> disconnected.
+(000086) 29/06/2006 16.34.03 - (not logged in) (192.168.0.5)> Connected, sending welcome message...
+(000086) 29/06/2006 16.34.03 - (not logged in) (192.168.0.5)> 220-FileZilla Server version 0.9.10 beta
+(000086) 29/06/2006 16.34.03 - (not logged in) (192.168.0.5)> 220 FTP-Server for TIBBO Test
+(000086) 29/06/2006 16.34.03 - (not logged in) (192.168.0.5)> USER tibbo
+(000086) 29/06/2006 16.34.03 - (not logged in) (192.168.0.5)> 331 Password required for tibbo
+(000086) 29/06/2006 16.34.03 - (not logged in) (192.168.0.5)> PASS prova
+(000086) 29/06/2006 16.34.03 - tibbo (192.168.0.5)> 230 Logged on
+(000086) 29/06/2006 16.34.03 - tibbo (192.168.0.5)> PORT 192,168,0,5,3,244
+(000086) 29/06/2006 16.34.03 - tibbo (192.168.0.5)> 200 Port command successful
+(000086) 29/06/2006 16.34.03 - tibbo (192.168.0.5)> STOR ftpTEST.txt
+(000086) 29/06/2006 16.34.03 - tibbo (192.168.0.5)> 150 Opening data channel for file transfer.
+(000086) 29/06/2006 16.34.54 - tibbo (192.168.0.5)> 226 Transfer OK
+(000086) 29/06/2006 16.34.54 - tibbo (192.168.0.5)> QUIT
+(000086) 29/06/2006 16.34.54 - tibbo (192.168.0.5)> 221 Goodbye
+(000086) 29/06/2006 16.34.54 - tibbo (192.168.0.5)> disconnected.
+(000087) 29/06/2006 16.35.24 - (not logged in) (192.168.0.5)> Connected, sending welcome message...
+(000087) 29/06/2006 16.35.24 - (not logged in) (192.168.0.5)> 220-FileZilla Server version 0.9.10 beta
+(000087) 29/06/2006 16.35.24 - (not logged in) (192.168.0.5)> 220 FTP-Server for TIBBO Test
+(000087) 29/06/2006 16.35.24 - (not logged in) (192.168.0.5)> USER tibbo
+(000087) 29/06/2006 16.35.24 - (not logged in) (192.168.0.5)> 331 Password required for tibbo
+(000087) 29/06/2006 16.35.24 - (not logged in) (192.168.0.5)> PASS prova
+(000087) 29/06/2006 16.35.24 - tibbo (192.168.0.5)> 230 Logged on
+(000087) 29/06/2006 16.35.24 - tibbo (192.168.0.5)> PORT 192,168,0,5,3,244
+(000087) 29/06/2006 16.35.24 - tibbo (192.168.0.5)> 200 Port command successful
+(000087) 29/06/2006 16.35.24 - tibbo (192.168.0.5)> STOR ftpTEST.txt
+(000087) 29/06/2006 16.35.24 - tibbo (192.168.0.5)> 150 Opening data channel for file transfer.
+(000087) 29/06/2006 16.36.16 - tibbo (192.168.0.5)> 226 Transfer OK
+(000087) 29/06/2006 16.36.16 - tibbo (192.168.0.5)> QUIT
+(000087) 29/06/2006 16.36.16 - tibbo (192.168.0.5)> 221 Goodbye
+(000087) 29/06/2006 16.36.16 - tibbo (192.168.0.5)> disconnected.
+(000088) 29/06/2006 16.36.46 - (not logged in) (192.168.0.5)> Connected, sending welcome message...
+(000088) 29/06/2006 16.36.46 - (not logged in) (192.168.0.5)> 220-FileZilla Server version 0.9.10 beta
+(000088) 29/06/2006 16.36.46 - (not logged in) (192.168.0.5)> 220 FTP-Server for TIBBO Test
+(000088) 29/06/2006 16.36.46 - (not logged in) (192.168.0.5)> USER tibbo
+(000088) 29/06/2006 16.36.46 - (not logged in) (192.168.0.5)> 331 Password required for tibbo
+(000088) 29/06/2006 16.36.46 - (not logged in) (192.168.0.5)> PASS prova
+(000088) 29/06/2006 16.36.46 - tibbo (192.168.0.5)> 230 Logged on
+(000088) 29/06/2006 16.36.46 - tibbo (192.168.0.5)> PORT 192,168,0,5,3,244
+(000088) 29/06/2006 16.36.46 - tibbo (192.168.0.5)> 200 Port command successful
+(000088) 29/06/2006 16.36.46 - tibbo (192.168.0.5)> STOR ftpTEST.txt
+(000088) 29/06/2006 16.36.46 - tibbo (192.168.0.5)> 150 Opening data channel for file transfer.
+(000088) 29/06/2006 16.37.37 - tibbo (192.168.0.5)> 226 Transfer OK
+(000088) 29/06/2006 16.37.37 - tibbo (192.168.0.5)> QUIT
+(000088) 29/06/2006 16.37.37 - tibbo (192.168.0.5)> 221 Goodbye
+(000088) 29/06/2006 16.37.37 - tibbo (192.168.0.5)> disconnected.
