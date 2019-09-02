@@ -1,5 +1,5 @@
-# CA-FTP-Client
+# FTP Client - V2
 
-To download the most recent project without installing GIT, please press the green "Clone or Download" button and select "Download ZIP".
+This demo transforms a Tibbo device into an FTP client. This effectively lets you publish data on an external webserver directly. It was originally developed by **Carlo Tauraso** to interface a DS202 with a WS2300 Professional Weather Station and submit the station's sensor data to an FTP server. The project has been updated to reflect changes in Taiko and add more comments.
 
-For more detail about this project, please visit <a href="http://tibbo.com/programmable/applications/network/ftp_client.html" target="_blank">Project Description Page</a>
+*The project includes a JPEG image depicting how it works.*
